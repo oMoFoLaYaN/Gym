@@ -1,0 +1,50 @@
+
+:root {
+  --lightgray: #D9D9D9;
+  --gray: #9c9c9c;
+  --orange: #f48915;
+  --darkGrey: #464d53;
+  --caloryCard: #656565;
+  --planCard: linear-gradient(210.41deg, #fa5014 1.14%, #ffa739 100.75%);
+  --app: linear-gradient(to right top, #3c3f45, #615072, #a8537e, #e55c5f, #f48915);
+  --appcolor: #3c3f45;
+}
+
+.App {
+  background-image: var(--app);
+  mix-blend-mode: overlay;
+  background-color: var(--app);
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  overflow: hidden;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.stroke-text {
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.btn {
+  background-color: transparent;
+  padding: 0.5rem;
+  font-weight: bold;
+  border: 4px double;
+  transition: 300ms all;
+  border-radius: 20px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
